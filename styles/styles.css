@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #273043;
+  background-color: #f7eee8;
+}
+
+#main-header {
+  background-color: #f55536;
+  color: #fbfaf8;
+  padding: 2rem 5%;
+  text-align: center;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: #f55536;
+  border: 0.0625rem solid #f55536;
+  color: #fbfaf8;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: #f55536;
+}
+
+.btn:hover {
+  background-color: #dd2e0b;
+  border-color: #dd2e0b;
+}
+
+.btn-alt:hover {
+  background-color: #f7ccc3;
+  border-color: transparent;
+}
